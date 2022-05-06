@@ -26,9 +26,6 @@ The results are shown in the table below:
 **Model**|**Top 1 Accuracy %**|**Top 3 Accuracy %**|**Top 5 Accuracy %**
 :-----:|:-----:|:-----:|:-----:
 ResNet50|41.424|71.614|87.1875
-ResNet101| | | 
-VGG-19| | | 
-DenseNet121| | | 
 
 ## Classification Based on Book Title
 For this, we use the entire dataset, i.e. we classify amongst all the 30 classes in the dataset. I used this [helpful tutorial for spam classification](https://www.analyticsvidhya.com/blog/2020/07/transfer-learning-for-nlp-fine-tuning-bert-for-text-classification/) and accordingly modified it for the problem at hand. From the results below, we see that the BERT base model gains considerably good accuracy after training for 50 epochs with the AdamW optimizer.  
